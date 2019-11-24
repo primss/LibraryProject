@@ -1,0 +1,2 @@
+include ':app', ':primsslib'
+rootProject.name='LibraryProject'

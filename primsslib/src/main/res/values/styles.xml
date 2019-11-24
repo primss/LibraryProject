@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ParentTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="AppTheme.TextViewEmptyList" parent="ParentTheme">
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="AppTheme.ButtonStyleLight" parent="ParentTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@drawable/flat_light_button_textcolor</item>
+        <item name="android:background">@drawable/flat_light_button</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:shadowColor">#eeeeee</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="AppTheme.RoundIndigoButtonStyle" parent="ParentTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@drawable/round_indigo_button_textcolor</item>
+        <item name="android:background">@drawable/round_indigo_button</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:shadowColor">#eeeeee</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="AppTheme.RoundLightButtonStyle" parent="ParentTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@drawable/round_light_button_textcolor</item>
+        <item name="android:background">@drawable/round_light_button</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:shadowColor">#eeeeee</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+</resources>

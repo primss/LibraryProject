@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_translucent_50">#50000000</color>
+    <color name="white_translucent_50">#50FFFFFF</color>
+
+    <color name="button_shadow">@android:color/darker_gray</color>
+
+    <color name="flat_light_button_default_solid">#FCFCFC</color>
+    <color name="flat_light_button_default_stroke">#F2F2F2</color>
+    <color name="flat_light_button_pressed_solid">#CCCCCC</color>
+    <color name="flat_light_button_pressed_stroke">#CCCCCC</color>
+    <color name="flat_light_button_disabled_solid">#E5EAEE</color>
+    <color name="flat_light_button_disabled_stroke">#F9F9F9</color>
+</resources>
