@@ -2,13 +2,15 @@ package inc.primssware.mylibrary.classes;
 
 import android.content.Context;
 import android.os.Handler;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.ContextCompat;
+
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
+import androidx.core.content.ContextCompat;
 import android.view.View;
 import android.widget.TextView;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -171,7 +173,7 @@ public class SnackBarManager {
         }
         View snackbarView = snackbar.getView();
         snackbarView.setBackgroundColor(backColor);
-        TextView textView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+        TextView textView = (TextView) snackbarView.findViewById(com.google.android.material.R.id.snackbar_text);
         textView.setTextColor(textColor);
         return snackbar;
     }
@@ -213,7 +215,7 @@ public class SnackBarManager {
         }
         View snackbarView = snackbar.getView();
         snackbarView.setBackgroundColor(backColor);
-        TextView textView = snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+        TextView textView = snackbarView.findViewById(com.google.android.material.R.id.snackbar_text);
         textView.setTextColor(textColor);
         snackbar.setActionTextColor(actionColor);
         return snackbar;

@@ -1,11 +1,13 @@
 package inc.primssware.mylibrary.utils;
 
 import android.content.Context;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
-import android.support.v4.view.ViewCompat;
+
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * Created by Ajay on 07-03-2017.
